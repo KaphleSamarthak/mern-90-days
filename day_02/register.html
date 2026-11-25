@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Regestration Form
+    </title>
+    <h1>Please fill up the registration form </h1>
+</head>
+<body style="color: aliceblue; background-color:black ;">
+    <form action="/register" method="post">
+        <label for="name">Username : </label>
+        <input type="text" id="name" name="username" placeholder="Enter your name"><br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male </label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female </label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <input type="checkbox" id="JS" name="skill" value="js">
+        <label for="name">JavaScript </label><br><br>
+
+        <input type="checkbox" id="HTML" name="skill" value="HTML">
+        <label for="name">HTML </label><br><br>
+
+        <input type="checkbox" id="CSS" name="skill" value="CSS">
+        <label for="name">CSS </label><br><br>
+
+        <input type="checkbox" id="Python" name="skill" value="Python">
+        <label for="name">Python </label><br><br>
+
+        <label for="course">Choose Course : </label>
+         <select name="course" id="course">
+            <option value="DAA">DAA</option>
+            <option value="DBMS">DBMS</option>
+            <option value="AI">AI</option>
+         </select><br><br>
+
+         <button type="submit">Register</button>
+    </form>
+</body>
