@@ -1,0 +1,63 @@
+h1{
+    color: blue; /* yesle purai h1 element lai select garxa */ 
+}
+
+#intro{
+    font-size: 50px; /* yesle #intro id ko element 50px banauxa*/
+}
+
+.card > p{
+    color: gray; /* yesma .card matra garyo vaney tyo card class matra select hunxa tara, .card p vaneko card class
+    vitra ko sabbai p element haru select gara vaneko ho. ra browser le yeslai priority dinxa rather than p element
+    vitra ko class or id*/
+}
+
+.note{
+    color: red; /* .note class ko kura red para vaneko ho.*/
+}
+
+a:hover{
+    color: green; /*yesle link ma hover garda color change garxa */
+}
+*{
+    box-sizing: border-box; /* yesko kaam box ko sizre border of the box jati xa terti nai hos vanera vanxa*/
+}
+.box{
+    color: black;
+    width: 200px;
+    padding: 20px;
+    border: 5px, solid darkblue;
+    margin: 30px; /* margin : 0 auto le center ma lagera rakhxa*/
+    /* margin-top: ; */
+    /* margin-bottom: ;  yesto sabbai kura haru hunxan*/
+    background-color: lightyellow;
+}
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.lead {
+  font-style: italic;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: monospace;
+}
